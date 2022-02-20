@@ -1,0 +1,14 @@
+PS C:\Users\mags> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol =
+ [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('ht
+tps://community.chocolatey.org/install.ps1'))
+Forcing web requests to allow TLS v1.2 (Required for requests to Chocolatey.org)
+Getting latest version of the Chocolatey package for download.
+Not using proxy.
+Getting Chocolatey from https://community.chocolatey.org/api/v2/package/chocolatey/0.12.1.
+Downloading https://community.chocolatey.org/api/v2/package/chocolatey/0.12.1 to C:\Users\mags\AppData\Local\Temp\chocol
+atey\chocoInstall\chocolatey.zip
+Not using proxy.
+Extracting C:\Users\mags\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip to C:\Users\mags\AppData\Local\Temp\c
+hocolatey\chocoInstall
+Downloading 7-Zip commandline tool prior to extraction.
+Downloading https://community.chocolatey.org/7za.exe to C:\Users\mags\AppData\Local\Temp\chocolatey\chocoInstall\7za.exe
